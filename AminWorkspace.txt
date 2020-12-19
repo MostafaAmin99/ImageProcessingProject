@@ -1,1 +1,14 @@
-Amin
+1- upload image
+
+ OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "Image File (*.bmp,*.jpg)| *.bmp;*.jpg";
+
+            if (DialogResult.OK == ofd.ShowDialog())
+            {
+                InputImage = new Image<Bgr, byte>(ofd.FileName);
+
+                this.pictureBox1.Image = new Bitmap(ofd.FileName);
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+
+_________________________________________________________________________________

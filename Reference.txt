@@ -1,0 +1,6 @@
+Install Emgu CV:
+https://youtu.be/sZ3afdajdwI
+
+1- upload image:
+https://youtu.be/9K_D82zHIXk
+
